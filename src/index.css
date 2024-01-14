@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Allison";
+  src: local('Allison'),
+  url('./assets/fonts/Allison-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ABeeZee-Regular';
+  src: local('ABeeZee-Regular'),
+  url('./assets/fonts/ABeeZee-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AbhayaLibre-Regular';
+  src: local('AbhayaLibre-Regular'),
+  url('./assets/fonts/AbhayaLibre-Regular.ttf') format('truetype');
+}
+
+* {
+  scroll-behavior: smooth;
+}

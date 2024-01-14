@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+}
+
+.wrapper > a {
+    text-align: center;
+    color: #fa3489;
+    font-family: Abhaya Libre;
+    font-size: 22px;
+    font-weight: 700;
+    border: #00C2FF 2px solid;
+    padding: 5px;
+    width: 190px;
+    box-shadow: 3px 4px 5px #fa3489;
+    text-decoration: none;
+}
+
+.wrapper > a:hover {
+    font-size: 24px;
+    color: #00C2FF;
+}
+

@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.wrapper > div > h2 {
+    color: #00C2FF;
+    text-align: center;
+    font-family: Allison, sans-serif;
+    font-size: 40px;
+    letter-spacing: 6px;
+    margin: 10px;
+}
+
+.wrapper > div > h2:hover{
+    cursor: pointer;
+}
+
+.navInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+    margin-left: 100px;
+}
+
+.navInfoWrapper > nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    width: 200px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #00C2FF;
+    font-size: 20px;
+    font-family: ABeeZee;
+    font-weight: 800;
+}
+
+nav > a[class='active']{
+    color: #fa3489;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: #00C2FF;
+    font-family: ABeeZee;
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.form > input {
+    border: 1px solid #FA3489;
+}
+
+.form > input::placeholder {
+    color: #00C2FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form > input:focus{
+    outline: none;
+}
+
+.button {
+    width: 50px;
+    color: #FA3489;
+    font-weight: 600;
+    font-family: ABeeZee;
+    border: #00C2FF;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.button:hover {
+    cursor: pointer;
+}

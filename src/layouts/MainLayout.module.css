@@ -1,0 +1,38 @@
+.dark {
+    background-color: #2a2a2a;;
+}
+
+.light {
+    background-color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info > span {
+    color: #00C2FF;
+}
+
+.switcher {
+    width: 200px;
+}
+
+.switcher > span {
+    color: #00C2FF;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.fix {
+    position: fixed;
+    width: 100%;
+}
+
+.outlet {
+    height: 100%;
+}

@@ -1,0 +1,68 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #fa3489;
+    height: 530px;
+    margin-right: 10px;
+}
+
+.wrapper:hover {
+    border: 1px solid #00C2FF;
+    box-shadow: 2px 3px 3px #00C2FF;
+}
+
+.titleHeight  {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.wrapper > div > h2 {
+    width: 80%;
+    color: #fa3489;
+    font-family: Abhaya Libre;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.data {
+    color: #fa3489;
+    font-weight: 500;
+    margin: 25px;
+}
+
+.rating {
+    width: 30px;
+    background-color: #04b704;
+    color: #faf1f1;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.good {
+    background-color: #04b704;
+}
+
+.bad {
+    background-color: #e7a723;
+}
+
+.genres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80px;
+    grid-gap: 6px;
+}
+
+.genres > p {
+    font-family: ABeeZee;
+    color: #00C2FF;
+    font-size: 16px;
+}

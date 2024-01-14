@@ -1,0 +1,49 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 40px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.buttons > button {
+    margin: 5px;
+}
+
+.main {
+    height: 100%;
+    width: calc(100vw - 50px);
+    margin: 15px;
+}
+
+.main > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    color: #00C2FF;
+    font-weight: 600;
+    font-family: ABeeZee;
+}
+
+.nothing {
+    height: 100vh;
+    width: calc(100vw - 50px);
+    margin: 15px;
+}
+
+.nothing > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    color: #00C2FF;
+    font-weight: 600;
+    font-family: ABeeZee;
+}

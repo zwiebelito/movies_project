@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.typeOfError {
+    background: #FA3489;
+    background: linear-gradient(to right, #FA3489 0%, #00C2FF 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: ABeeZee-Regular;
+    font-size: 108px;
+    margin: 20px;
+}
+
+.reasonOfError {
+    font-family: ABeeZee-Regular;
+    font-size: 38px;
+    background: #00C2FF;
+    background: radial-gradient(circle farthest-corner at center center, #00C2FF 0%, #FA3489 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wrapper > p{
+    background: #00C2FF;
+    background: linear-gradient(to right, #00C2FF 31%, #FA3489 56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: ABeeZee-Regular;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.wrapper > Button {
+    margin-top: 30px;
+    padding: 5px;
+    background: #fa3489;
+    color: #d3e3e7;
+    font-family: ABeeZee-Regular;
+    font-size: 14px;
+}
